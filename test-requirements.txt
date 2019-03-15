@@ -1,0 +1,9 @@
+pytest==3.7.4
+pytest-cov==2.6.0
+pytest-html==1.19.0
+pytest-instafail==0.4.0
+pytest-metadata==1.7.0
+pytest-picked==0.3.0
+pytest-sugar==0.9.1
+pytest-tldr==0.1.5
+
