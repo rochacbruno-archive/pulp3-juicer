@@ -11,7 +11,7 @@ set -veuo pipefail
 # Run migrations.
 export DJANGO_SETTINGS_MODULE=pulpcore.app.settings
 export PULP_CONTENT_HOST=localhost:8080
-pulp-manager makemigrations certguard
+pulp-manager makemigrations file --noinput
 pulp-manager migrate --noinput
 
 # Run unit tests.
